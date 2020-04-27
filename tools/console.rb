@@ -42,6 +42,16 @@ require_relative '../config/environment.rb'
     p18 = Painting.new("Beech", rand(1000), a10, g2)
     p19 = Painting.new("Fir", rand(1000), a11, g1)
     p20 = Painting.new("Mango", rand(1000), a1, g1)
+    p21 = Painting.new("a", 100, a1, g1)
+    p22 = Painting.new("b", 150, a1, g1)
+    p23 = Painting.new("c", 50, a1, g1)
+    p24 = Painting.new("d", 750, a1, g1)
+    p25 = Painting.new("e", 200, a1, g1)
+    p26 = Painting.new("f", 800, a1, g1)
+    p27 = Painting.new("g", 1050, a1, g1)
+    p28 = Painting.new("h", 650, a1, g1)
+    p29 = Painting.new("i", 300, a1, g1)
+    p30 = Painting.new("j", 450, a1, g1)
 
 
 
