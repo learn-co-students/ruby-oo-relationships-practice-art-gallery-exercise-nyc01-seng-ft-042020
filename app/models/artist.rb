@@ -33,8 +33,8 @@ class Artist
   end
 
   def self.most_prolific
-    paintings_array = Artist.all.map {|artist| artist.paintings.size}
-    Artist.all.select { |artist| artist.paintings.count == paintings_array.max}
+    productivity_array = Artist.all.map {|artist| artist.paintings.size/artist.years_experience}
+    Artist.all.find { |artist| (artist.paintings.size / artist.years_experience) == paintings_array.max}
   end
 
   def create_painting(title, price, gallery)
